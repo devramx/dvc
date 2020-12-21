@@ -6,7 +6,7 @@ from dvc.output import BaseOutput
 from dvc.path_info import PathInfo
 from dvc.repo import locked
 from dvc.repo.collect import collect
-from dvc.repo.dvclive import summary_path_info
+from dvc.repo.live import summary_path_info
 from dvc.scm.base import SCMError
 from dvc.tree.repo import RepoTree
 from dvc.utils.serialize import YAMLFileCorruptedError, load_yaml
